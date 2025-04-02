@@ -1,0 +1,46 @@
+:root{
+    --darkBlue: #5179fa;
+    --lightBlue: #b5c6ff;
+}
+
+
+.main-app-header{
+    background: #a0a0a0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 0 0 15px 15px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    margin-top: 1rem;
+    background-color: #a6aff8;
+    border-radius: 20px;
+}
+.menu div{
+    padding: 15px;
+}
+.main-app-header h1{
+    color: #fff;
+}
+.menu-arcade,.menu-ban-maejoe,.menu-safari,.menu-horpuk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-arcade span,.menu-ban-maejoe span,.menu-safari span,.menu-horpuk span{
+    font-size: 120px;
+}
+
+body{
+    background:#7291f5;
+   
+}
+.main-app-header{
+    background-color: var(--darkBlue);
+}

@@ -1,0 +1,82 @@
+.form-name{
+    display:flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    align-items: center;
+}
+.form-name label{
+    margin-right:5px;
+    font-size:20px;
+}
+.form-name input{
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 8px;
+    font-size: 18px;
+    border: 1px solid #c5c5c5;
+}
+.form-container{
+    background: #fff;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0,0.1);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 100%;
+    }
+}
+.form-item label{
+    font-size: 20px;
+}
+.css-jupps9-MuiInputBase-root-MuiOutlinedInput-root{
+    border-radius: 15px !important;
+    width: 80% !important;
+}
+.css-1b1fjlj-MuiFormControl-root-MuiTextField-root{
+    width: 230px !important;
+    div{
+        width: 20% !important;
+    }
+}
+.css-1b1fjlj-MuiFormControl-root-MuiTextField-root div:last-child{
+    width: 80% !important;
+}
+.form-item{
+    display:flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    align-items: center;
+    .start{
+    justify-content: end;
+    }
+}
+.form-item label{
+    margin-right:5px;
+    font-size:20px;
+    width: 180px;
+    display: flex;
+}
+.input-number{
+    width: 40%;
+}
+.submit-btn{
+    height: 40px;
+    width: 80%;
+    margin-top: 1rem;
+}
+.form-name{
+    display: flex;
+    justify-content: center;
+   input{
+    width: 50%;
+} 
+} 

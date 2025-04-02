@@ -1,0 +1,42 @@
+:root{
+    --darkBlue: #5179fa;
+    --lightBlue: #b5c6ff;
+}
+.Bill{
+    margin-top: 0.3rem ;
+    background: #93abfc;
+}
+.bill-container{
+    text-align: center;
+}
+.bill-list{
+    padding: 0.3rem;
+}
+.list-control{
+    display: flex;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid var(--darkBlue) ;
+    justify-content: space-between;
+
+}
+.amount{
+    display: flex;
+    align-items: center;
+}
+p{
+    font-size: 16px;
+}
+.show-bill-btn, .paid-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+        color: var(--darkBlue);
+        font-size: 30px;
+    }
+}
+
+.white-span{
+    background-color: #f5f5f5;
+    border: none;
+}

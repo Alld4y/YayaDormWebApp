@@ -1,0 +1,36 @@
+/* div{
+    border: solid 1px red;
+} */
+ p{
+    font-size: 24px;
+ }
+.Acn-app-container{
+    display: flex;
+    flex-direction: column;
+}
+/* .app-header{
+
+} */
+.profile-container{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px solid #c0c0c0;
+    background-color: #a6aff8;
+}
+.profile-container div{
+    padding: 0.5rem;
+}
+.monthly-app-container{
+    background:#e3e3e3;
+}
+.paid-btn{
+    background:#7f97e4;
+    border-radius: 10px;
+    border: solid 1px rgb(45, 45, 235);
+    padding: 3px;
+    
+}
+.app-header h1{
+    margin-left: 1rem;
+}

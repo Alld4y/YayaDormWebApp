@@ -1,0 +1,130 @@
+:root{
+    --darkBlue: #5179fa;
+    --lightBlue: #b5c6ff;
+}
+
+.main-container{
+    width: 100%;
+}
+
+.room-header{
+    border: 5px solid var(--darkBlue);
+    background-color: var(--lightBlue);
+    /* border-radius: 15px 15px 0 0; */
+    border-bottom: 1px;
+    width: 100%;
+    text-align: center;
+    h2{
+        margin: 0.5rem 1rem 0.5rem 1rem;
+    }
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.status-box{
+    border: 3px solid var(--darkBlue);
+    div{
+        padding: 1rem;
+        padding-top: 0;
+    }
+    div p{
+        font-size: 18px;
+        border-bottom: 1px solid var(--darkBlue);
+    }
+    h3{
+        padding: 0.3rem;
+        margin-left: 0.5rem ;
+        border: 2px solid var(--darkBlue);
+        width: max-content;
+        border-radius:10px;
+        margin-top: 0.5rem;
+    }
+}
+.unit-header{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid var(--darkBlue);
+    padding: 0.3rem;
+    width: 100%;
+}
+.unit-display-container{
+    display: flex;
+    justify-content: space-around;
+}
+.Unit{
+    display: flex;
+    justify-content: space-around;
+}
+.unit-container h3,.unit-container h1{
+margin: 0 0.5rem 0 0.5rem;
+
+}
+.unit-container h3{
+    font-size: 15px;
+    border-bottom: 1px solid var(--darkBlue);
+}
+
+.border-unit{
+    border: 3px  solid var(--darkBlue);
+    
+}
+.unit-display-container{
+    border-right: 1px solid var(--darkBlue);
+    padding-top: 0.3rem;
+    width: 100%;
+}
+.border-right{
+    border-right: 1px solid var(--darkBlue);
+}
+.prev-month{
+    width: max-content;
+}
+.time-container{
+    border: 3px solid var(--darkBlue);
+    padding: 0.3rem;
+    border-bottom: 6px solid var(--darkBlue);
+}
+.add-unit-btn{
+    background-color: #f1ccff;
+    border: 2px solid var(--darkBlue);
+    padding: 0.2rem;
+    font-size: 18px;
+    width: 80%;
+    margin-top: 0.5rem;
+    border-radius: 15px;
+}
+.add-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+    button{
+        width: 30%;
+        height: 40px;
+        margin: 0 1rem 0 1rem;
+    }
+}
+.submitPopUp{
+    border: 5px solid var(--darkBlue);
+}
+
+.submitPopUp{
+    position: fixed;
+    background: #f5f5f5;
+    border-radius: 15px;
+    width: 340px;
+    border: 2px solid #001e80;
+    overflow: hidden;
+}
+.status-box,.unit-header,.unit-container,.unit-display-container,.time-container{
+    background: #bfcee9;
+}
+.list-control{
+    background:#fff;
+}

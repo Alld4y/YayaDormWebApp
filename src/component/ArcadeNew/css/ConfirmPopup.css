@@ -1,0 +1,41 @@
+.confirm-popup{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+.payment-popup-container{
+    border-radius: 15px;
+    overflow: hidden;
+    width: 80%;
+    background: pink;
+}
+.payment-popup{
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.confirm-detail{
+    height: 200px;
+    background: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.yes-btn span,.no-btn span{
+    font-size: 90px;
+}
+.yes-btn{
+    background-color: #73ce67;
+    color: #157203;
+}
+.no-btn{
+    background-color: rgb(226, 131, 131);
+    color: rgb(184, 74, 74);
+}
+.confirm-detail div button{
+    margin: 1.5rem;
+}
